@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syed Mostofa Moosa — Health Informatics</title>
+  <meta name="description" content="Syed Mostofa Moosa — health informatics researcher and health-tech founder working on clinical decision support and medication safety for low-resource health systems." />
+  <meta name="theme-color" content="#070b12" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="brand"><span class="brand-mark">SM</span> Syed Mostofa Moosa</a>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#thesis">Thesis</a>
+      <a href="#building">Building</a>
+      <a href="#field">Field</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ───────── HERO ───────── -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="dot"></span> Health Informatics · Sylhet, Bangladesh</p>
+        <h1>Making prescriptions <em>safer</em> in health systems that still run on paper.</h1>
+        <p class="lead">
+          I am <strong>Syed Mostofa Moosa</strong>, a Computer Science undergraduate and health-tech
+          founder. I research clinical decision support and medication safety for low-resource
+          settings, and I build software that brings Bangladeshi clinics into the digital age.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="assets/cv/Syed_Mostofa_Moosa_Curriculum_Vitae__CV_.pdf" target="_blank" rel="noopener">
+            View CV <span aria-hidden="true">↗</span>
+          </a>
+          <a class="btn" href="assets/cv/Syed_Mostofa_Moosa_Curriculum_Vitae__CV_.pdf" download="Syed-Mostofa-Moosa-CV.pdf">Download PDF</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/smostofamoosa/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="portrait">
+        <div class="portrait-ring">
+          <img src="assets/img/syed.jpg" alt="Syed Mostofa Moosa" onerror="this.remove()" />
+          <span class="initials" aria-hidden="true">SM</span>
+        </div>
+        <div class="vitals">
+          <div><span class="v-label">Focus</span><span class="v-val">Med Safety</span></div>
+          <div><span class="v-label">Building</span><span class="v-val">Duha Health</span></div>
+          <div><span class="v-label">Region</span><span class="v-val">LMICs</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ecg" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path class="ecg-base" id="ecg-path" d="" />
+        <path class="ecg-pulse" id="ecg-pulse" d="" />
+      </svg>
+    </div>
+
+    <!-- ───────── RESEARCH ───────── -->
+    <section id="research" class="reveal">
+      <p class="label">01 — Research interests</p>
+      <h2>Where clinical care meets <em>computation</em></h2>
+      <div class="cards three">
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 3h6v4h4v6h-4v4H9v-4H5V7h4z"/></svg>
+          </div>
+          <h3>Clinical decision support &amp; medication safety</h3>
+          <p>Catching prescribing errors and drug–drug interactions at the point of care in paper-first, low-resource health systems.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h3>Clinical NLP &amp; language models</h3>
+          <p>Using clinical natural language processing, vision-language models and LLMs to read, structure and check prescriptions.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+          </div>
+          <h3>Health information systems for LMICs</h3>
+          <p>Designing EHR, practice-management and prescription data models that fit the realities of clinics in low- and middle-income countries.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────── THESIS ───────── -->
+    <section id="thesis" class="reveal">
+      <p class="label">02 — Current thesis</p>
+      <div class="thesis">
+        <div class="thesis-head">
+          <span class="badge">Ongoing · Sep 2026 –</span>
+          <h2 class="thesis-title">Evaluating a Vision Language Model Clinical Decision Support Pipeline on Handwritten Outpatient Prescriptions in a Bangladeshi Private Hospital</h2>
+          <p class="muted">Undergraduate thesis · Metropolitan University, Sylhet · Manuscript in preparation (Moosa SM, Emon MH, Muzammil M)</p>
+        </div>
+
+        <div class="problem">
+          <h3 class="sub">The problem</h3>
+          <p>Most outpatient prescriptions in Bangladesh are handwritten and dispensed with no automated safety check. Clinical decision support depends on structured digital data, and traditional OCR fails on cursive handwriting, abbreviations and mixed Bangla–English notation. As a result, safety checks never receive usable input.</p>
+        </div>
+
+        <h3 class="sub">The pipeline</h3>
+        <ol class="pipeline">
+          <li><span class="step">01</span><strong>Image capture</strong><small>De-identified prescription scans, annotated by clinicians as ground truth</small></li>
+          <li><span class="step">02</span><strong>VLM extraction</strong><small>Drug, strength, dose, frequency and duration as structured data</small></li>
+          <li><span class="step">03</span><strong>Normalization</strong><small>Brand names mapped to generic ingredients via a Bangladesh drug database</small></li>
+          <li><span class="step">04</span><strong>CDS screening</strong><small>Rule-based checks for interactions, dose limits and duplication</small></li>
+        </ol>
+
+        <div class="thesis-grid">
+          <div>
+            <h3 class="sub">Research questions</h3>
+            <ol class="rq">
+              <li>How accurately can vision language models extract drug name, dose, route and frequency from handwritten Bangladeshi prescriptions?</li>
+              <li>How do extraction errors propagate into downstream CDS alerts, as missed and false hazards?</li>
+              <li>What share of real outpatient prescriptions contain preventable hazards that a VLM-CDS pipeline could flag?</li>
+            </ol>
+            <h3 class="sub">Evaluation</h3>
+            <p class="muted">Field-level extraction precision, recall and F1 against clinician annotations, plus hazard-detection sensitivity and false-alert rate against clinician review.</p>
+          </div>
+          <div>
+            <h3 class="sub">Expected contributions</h3>
+            <ul class="contrib">
+              <li><b>Empirical</b> The first local estimate of preventable prescribing hazards in handwritten outpatient prescriptions at this setting.</li>
+              <li><b>Technical</b> A benchmark of VLMs on low-resource, mixed-script medical handwriting.</li>
+              <li><b>Safety</b> Measures how extraction errors affect CDS reliability, to inform human-in-the-loop design.</li>
+              <li><b>Policy</b> Evidence for medication-safety investment where digital prescribing is still rare.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bridge">
+          <span class="bridge-label">From research to product</span>
+          <p><strong>Duha Rx</strong> runs real-time CDS on digital prescriptions. The VLM pipeline extends those checks to the paper prescriptions still in circulation at pharmacies and on intake. Next steps: integrate validated CDS rules into Duha Rx, add Bangla-language support, and release a public screening tool with clear accuracy disclaimers.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── PUBLICATIONS ───────── -->
+    <section id="publications" class="reveal">
+      <p class="label">03 — Publications &amp; manuscripts</p>
+      <h2>Writing</h2>
+      <ul class="pubs">
+        <li>
+          <span class="pub-status review">Under review</span>
+          <div>
+            <h3>Characterising Divergence Between Heuristic and Language-Model Ratings of Mobile User Interface Quality</h3>
+            <p class="muted">Sadi MRK, Naeem GM, Tasin TR, <b>Moosa SM</b>, Emon MH, Rashid M, Ahmed F · <i>PeerJ Computer Science</i></p>
+          </div>
+        </li>
+        <li>
+          <span class="pub-status prep">In preparation</span>
+          <div>
+            <h3>Evaluating a Vision Language Model Clinical Decision Support Pipeline on Handwritten Outpatient Prescriptions in a Bangladeshi Private Hospital</h3>
+            <p class="muted"><b>Moosa SM</b>, Emon MH, Muzammil M</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ───────── BUILDING ───────── -->
+    <section id="building" class="reveal">
+      <p class="label">04 — Building</p>
+      <h2>Health tech, <em>in practice</em></h2>
+      <div class="cards two">
+        <article class="card feature">
+          <div class="card-top"><span class="tag live">Live · 32+ physicians</span><span class="muted mono">2026 –</span></div>
+          <h3>Duha Health · Duha Rx</h3>
+          <p>Co-Founder &amp; CEO. Chamber management and prescription software for Bangladeshi doctors, with real-time decision support on digital prescriptions. It's the first step toward an EHR system for Bangladesh. I lead product, research, go-to-market and operations.</p>
+          <ul class="chips"><li>EHR</li><li>Prescriptions</li><li>Practice management</li></ul>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag">Agency</span><span class="muted mono">2024 – 2026</span></div>
+          <h3>IntelliGency Solutions</h3>
+          <p>Founder &amp; CEO. A digital agency for small and mid-sized US healthcare practices covering medical billing/RCM, tech development, marketing and cloud. Grew client revenue and patient bookings by 30%.</p>
+          <ul class="chips"><li>RCM</li><li>Healthcare SaaS</li><li>Growth</li></ul>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag">Project</span><span class="muted mono">Coursework</span></div>
+          <h3>DaktarConnect</h3>
+          <p>A Bangladeshi take on ZocDoc: patients book appointments and get telemedicine consultations with doctors. Built for Web Programming at Metropolitan University.</p>
+          <ul class="chips"><li>Telemedicine</li><li>Scheduling</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────── IN THE FIELD ───────── -->
+    <section id="field" class="reveal">
+      <p class="label">From the field</p>
+      <h2>Onboarding doctors, <em>one chamber at a time</em></h2>
+      <p class="lead field-lead">Duha Rx is built alongside the physicians who use it. I sit in on consultations, watch how prescriptions are actually written, and take feedback back to the product the same week.</p>
+      <div class="gallery">
+        <figure>
+          <img src="assets/img/web/duha-chamber.jpg" alt="A doctor's desk with stethoscope, thermometer and a notebook of handwritten Duha Rx feature feedback" loading="lazy" />
+          <figcaption>Field notes from a doctor's chamber: brand, route, dose, duration and instructions, in the order clinicians think about them.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/web/duha-clinic.jpg" alt="The Duha Rx prescription editor open on a monitor in a doctor's consultation room" loading="lazy" />
+          <figcaption>Duha Rx live in a consultation room.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/web/duha-dashboard.jpg" alt="A doctor's Duha Rx dashboard showing their first finalized prescriptions" loading="lazy" />
+          <figcaption>Onboarding day: a doctor's first finalized prescriptions.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/web/duha-landing.jpg" alt="Laptop showing the Duha Rx landing page: Prescriptions, done right" loading="lazy" />
+          <figcaption>"Prescriptions, done right." The Duha Rx landing page.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ───────── EXPERIENCE ───────── -->
+    <section id="experience" class="reveal">
+      <p class="label">05 — Experience</p>
+      <h2>Path so far</h2>
+      <div class="timeline-wrap">
+        <div>
+          <h3 class="col-title">Research</h3>
+          <ol class="timeline">
+            <li><span class="when">Sep 2026 – Present</span><strong>Undergraduate Thesis Researcher</strong><span class="where">Metropolitan University · Sylhet</span></li>
+            <li><span class="when">Nov 2021 – Jun 2022</span><strong>Research Associate</strong><span class="where">Youth Policy Forum · Dhaka</span></li>
+            <li><span class="when">Jun 2018 – Aug 2018</span><strong>Research Associate</strong><span class="where">NYU Langone Health · New York City</span></li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="col-title">Industry</h3>
+          <ol class="timeline">
+            <li><span class="when">Jul 2026 – Present</span><strong>Co-Founder &amp; CEO</strong><span class="where">Duha Health · Sylhet</span></li>
+            <li><span class="when">Mar 2024 – Jun 2026</span><strong>Founder &amp; CEO</strong><span class="where">IntelliGency Solutions · Northville, MI</span></li>
+            <li><span class="when">Jan 2022 – Jul 2022</span><strong>Medical Biller</strong><span class="where">Berkley Urgent Care PLLC · Berkley, MI</span></li>
+            <li><span class="when">Jun 2021 – Dec 2021</span><strong>Content Strategist</strong><span class="where">The Capsule · New York</span></li>
+            <li><span class="when">Dec 2020 – Feb 2021</span><strong>Project Management Intern</strong><span class="where">MetaOption LLC · New York</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── EDUCATION ───────── -->
+    <section id="education" class="reveal">
+      <p class="label">06 — Education &amp; honours</p>
+      <h2>Education</h2>
+      <div class="edu">
+        <article>
+          <span class="when">Expected Jan 2027</span>
+          <h3>B.Sc. Computer Science &amp; Engineering</h3>
+          <p class="where">Metropolitan University · Sylhet, Bangladesh</p>
+          <p class="muted">GPA 3.50 / 4.00</p>
+        </article>
+        <article>
+          <span class="when">Coursework</span>
+          <h3>Vassar College</h3>
+          <p class="where">Poughkeepsie, New York</p>
+          <p class="muted">Economics, Biology, Computer Science, Mathematics</p>
+        </article>
+        <article>
+          <span class="when">IAL · IGCSE</span>
+          <h3>Anandaniketan School</h3>
+          <p class="where">Sylhet, Bangladesh</p>
+          <p class="muted">Pearson Edexcel IAL: 3A* &amp; 1A · IGCSE: 7A* &amp; 1B</p>
+        </article>
+      </div>
+      <ul class="awards">
+        <li><span aria-hidden="true">✦</span> The Daily Star Award for Outstanding Results (IGCSE, IAL)</li>
+        <li><span aria-hidden="true">✦</span> Pearson Edexcel High Achievers' Award (IGCSE, IAL)</li>
+      </ul>
+    </section>
+
+    <!-- ───────── SKILLS ───────── -->
+    <section id="skills" class="reveal">
+      <p class="label">07 — Toolkit</p>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h3>Healthcare</h3><ul class="chips"><li>Medical Billing / RCM</li><li>DDI knowledge bases (DDInter)</li><li>Prescription &amp; appointment data models</li><li>EHR &amp; practice-management workflows</li></ul></div>
+        <div><h3>Technical</h3><ul class="chips"><li>Python</li><li>C++</li><li>JavaScript</li><li>AI-assisted coding</li></ul></div>
+        <div><h3>Research</h3><ul class="chips"><li>LaTeX</li><li>Manuscript writing</li><li>Policy memos</li><li>Primary datasets</li></ul></div>
+        <div><h3>Product</h3><ul class="chips"><li>Product design</li><li>PRDs</li><li>Project management</li><li>Sales ops</li><li>Growth</li></ul></div>
+        <div><h3>Languages</h3><ul class="chips"><li>English: fluent</li><li>Bengali: native</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ───────── CONTACT ───────── -->
+    <section id="contact" class="reveal contact">
+      <p class="label">08 — Contact</p>
+      <h2>Let's talk about <em>HealthTech</em>.</h2>
+      <p class="lead">Open to research collaborations, Duha Rx demo, and conversations about digital health in Bangladesh and other LMICs.</p>
+      <div class="actions center">
+        <a class="btn primary" href="mailto:syedmoosasylhet@gmail.com">syedmoosasylhet@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/smostofamoosa/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Syed Mostofa Moosa · Sylhet, Bangladesh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
